@@ -1,0 +1,152 @@
+{
+  "basics": {
+   "name": "Pierre Vallet",
+   "label": "Developpeur / Tech Back and Frontend",
+   "picture": "",
+   "email": "vallet.pierre@gmail.com",
+   "phone": "+33667471212",
+   "website": "",
+   "summary": "Après avoir débuté durant six années au sein de SSII et pour de grand comptes clients, j'ai plongé dans l'univers des startups en 2013.
+   Remise en question, apprentissage de nouvelles technologies, techniques et langages sont donc devenu légion. Il m'a fallu apprendre à devenir curieux et aborder l'ensemble des sujets connexes au développement en fonction des problématiques rencontrées. Cela à développé mon sens de la recherche et de l'autonomie",
+   "location": {
+     "address": "22 boulevard Pasteur",
+     "postalCode": "63000",
+     "city": "Clermont Ferrand",
+     "countryCode": "FR",
+     "region": "Puy de Dôme"
+   },
+   "profiles": []
+ },
+ "work": [{
+   "company": "Search XPR - Oorace",
+   "position": "CDI - Développeur Frontend et Backend, DevOps",
+   "website": "http://www.oorace.com/",
+   "startDate": "03/04/2013",
+   "endDate": "",
+   "summary": "Développement d'une solution de recommendation de contenus/produits pour site web Oorace.",
+   "highlights": [
+     "Développement d'une application web backend et frontend pour le paramétrage technique et client de la plateforme de recommenation",
+     "Architecture et développement d'une librairie Javascript pour la collecte des données de navigation utilisateur sur une plateforme web cible, et d'un module de récupération et d'affichage instantannée des produits/contenus recommandés par la plateforme Oorace.",
+     "Mise en place d'un environnement de collecte et de monitoring des métriques de l'ensemble des briques matérielles et logicielles de l'infrastructure de production. Intégration et clusterisation des outils de monitoring et visualisation, développement de connecteurs de récupération des métriques de la palteforme, réalisation de dashboard de visualisation des métriques et mise en palce d'un outils d'alertes automatisées.",
+   ]
+ },
+ {
+   "company": "Atos",
+   "position": "CDI - Concepteur/Developpeur Java Web",
+   "website": "https://fr.atos.net",
+   "startDate": "01/04/2008",
+   "endDate": "03/04/2013",
+   "summary": "Concepteur et développeur d'application Java web en prestation pour différents grand compte.",
+   "highlights": [
+     "Analyse technique et développement d’applications Java EE dans la branche manufacturing d’une manufacture de pneumatiques française.",
+     "Développement d’évolutions sur une application de traitement de données issues d’un satellite.",
+     "Architecture et développement d'un module autonome, traçant les événements et les alarmes déclenchés sur un réseau gazier étranger."
+   ]
+ },
+ {
+   "company": "Capgemini",
+   "position": "CDI - Developpeur Java junior",
+   "website": "https://www.fr.capgemini.com/",
+   "startDate": "01/07/2007",
+   "endDate": "01/04/2008",
+   "summary": "",
+   "highlights": [
+     "Études de cahiers des charges, analyses fonctionnelles et techniques et chiffrages d'évolutions",
+     "Développement de nouvelles fonctionnalitées, corrections d’anomalies sur une application web en Java dédiée à la visualisation des commandes clients dans un service de supply chain d'un manufacturier de pneumatiques."
+   ]
+ }
+],
+ "volunteer": [{
+   "organization": "La Roche Blanche Montagne Escalade",
+   "position": "Président",
+   "website": "",
+   "startDate": "01/04/2016",
+   "endDate": "",
+   "summary": "Président d'un club d'escalade affilié FFME",
+   "highlights": [
+   ]
+ }],
+ "education": [{
+   "institution": "Institut Universitaire de Technologie de Clermont Ferrand (63)",
+   "area": "Informatique répartie",
+   "studyType": "Licence professionnele",
+   "startDate": "01/09/2005",
+   "endDate": "30/06/2006",
+   "gpa": "",
+   "courses": [
+   ]
+ },
+ {
+   "institution": "Institut Universitaire de Technologie de Clermont Ferrand (63)",
+   "area": "Systèmes industriels",
+   "studyType": "Diplôme Universitaire de Technologie en informatique",
+   "startDate": "01/09/2003",
+   "endDate": "30/06/2005",
+   "gpa": "",
+   "courses": [
+   ]
+ }],
+ "skills": [{
+   "name": "Développement frontend",
+   "level": "Master",
+   "keywords": [
+     "HTML/CSS",
+     "Javascript ES 5/6",
+     "ReactJS / Redux / Webpack",
+     "Github Atom"
+   ]
+ },
+ {
+   "name": "Développement backend",
+   "level": "Master",
+   "keywords": [
+     "Java 8",
+     "Java EE",
+     "Dropwizard",
+     "Junit",
+     "IDEA IntelliJ"
+   ]
+ },
+  {
+    "name": "DevOps",
+    "level": "Intermediate",
+    "keywords": [
+      "Git / Github / Gitlab",
+      "Jenkins",
+      "Docker",
+      "Ansible",
+      "Graphite & Grafana"
+      "Seyren",
+      "Amazon AWS"
+    ]
+  },
+  {
+    "name": "Bases de données",
+    "level": "Intermediate",
+    "keywords": [
+      "SQL",
+      "MongoDB",
+      "Elaticsearch",
+      "Zookeeper"
+    ]
+  }
+],
+ "languages": [{
+   "name": "Anglais",
+   "level": "Lu, écrit et parlé"
+ },
+ {
+   "name": "Espagnol",
+   "level": "Notions"
+ }],
+ "interests": [{
+   "name": "Sport et activitées de montagne",
+   "keywords": [
+     "Escalade",
+     "Randonnée",
+     "VTT enduro",
+     "Ski & snowboard"
+   ]
+ }],
+ "references": []
+}
