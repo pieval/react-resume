@@ -2,6 +2,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   resolve: {
@@ -15,12 +16,12 @@ module.exports = {
   ],
 
   output: {
-    path: path.join(__dirname, '/build/'),
-    filename: 'bundle.js',
+    path: path.join(__dirname, '/dist/'),
+    filename: 'static/bundle.js',
     publicPath: '/',
   },
 
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'cheap-module-source-map',
 
   module: {
     rules: [
@@ -34,12 +35,24 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'postcss-loader',
+        ],
+      },
     ],
   },
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'public/index.template.ejs',
+      inject: 'body',
+    }),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: JSON.stringify('development') },
     }),

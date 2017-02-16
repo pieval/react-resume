@@ -19,10 +19,10 @@ app.use(require('webpack-dev-middleware')(compiler, {
 }));
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.use('/build', express.static(path.join(__dirname, '/build')));
+app.use('/dist', express.static(path.join(__dirname, '/dist')));
 
 app.get('*', function send(req, res) {
-  res.sendFile(path.join(__dirname, './public/index.html'));
+  res.sendFile(path.join(__dirname, './dist/index.html'));
 });
 
 app.listen(port, (error) => {
