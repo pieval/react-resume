@@ -8,7 +8,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.css'],
   },
 
   entry: [
@@ -42,6 +42,7 @@ module.exports = {
               options: {
                 sourceMap: true,
                 modules: true,
+                minimize: true,
                 importLoaders: 1,
                 localIndentName: '[name]__[local]___[hash:base64:5]',
               },
@@ -52,13 +53,22 @@ module.exports = {
           ],
         }),
       },
+      {
+        test: /\.png$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'media/[name].[ext]',
+          },
+        },
+      },
     ],
   },
 
   plugins: [
     new ExtractTextPlugin('static/bundle.css'),
     new HtmlWebpackPlugin({
-      template: 'public/index.template.ejs',
+      template: 'src/index.template.ejs',
       inject: 'body',
     }),
     new webpack.NoEmitOnErrorsPlugin(),

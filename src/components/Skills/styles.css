@@ -1,0 +1,26 @@
+.skill {
+ /*background-color: #FFFFFF;
+ padding: 3px 15px;
+ margin-top: 15px;*/
+}
+
+.skill h4 {
+  color: #5FBA7D;
+  margin-bottom: 0.5em;
+  margin-top: 0.75em;
+}
+
+.skill ul {
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.skill li {
+  list-style: none;
+  align-items: center;
+  margin-right: 5px;
+  padding: 3px;
+  background-color: #CEE0ED;
+  color: #41688D;
+  font-size: 14px;
+}

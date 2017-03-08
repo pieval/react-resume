@@ -1,0 +1,30 @@
+.interests {
+  /*background-color: #FFFFFF;
+  padding: 3px 15px;
+  margin-top: 15px;*/
+}
+
+.entry {
+  margin-top: 0.75em;
+}
+
+.highlights {
+  font-size: 15px;
+  font-weight: 900;
+  color: #5FBA7D;
+}
+
+.summary {
+  margin: 0.5em 0 0.5em 0;
+  font-style: italic;
+}
+
+.interests h4 {
+  color: #5FBA7D;
+  margin-bottom: 0;
+  margin-top: 0.75em;
+}
+
+.interests ul {
+  margin-top: 0.2em;
+}

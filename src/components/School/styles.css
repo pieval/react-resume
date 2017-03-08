@@ -1,0 +1,20 @@
+.school {
+  /*background-color: #FFFFFF;
+  padding: 3px 15px;
+  margin-top: 15px;*/
+}
+
+.entry {
+  margin-top: 0.75em;
+}
+
+.highlights {
+  font-size: 15px;
+  font-weight: 900;
+  color: #5FBA7D;
+}
+
+.location {
+  margin-left:5em;
+  font-style: italic;
+}

@@ -1,0 +1,39 @@
+.idcard {
+  background-color: #FFFFFF;
+  padding: 20px 0px 5px 0px;
+}
+
+.profilePicture {
+    width:75%;
+    border-radius:50%;
+    display: block;
+    margin: auto;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.contactInfo {
+    margin-bottom: 10px;
+}
+
+.idcard hr {
+   width: 90%;
+   margin-bottom: 15px;
+ }
+
+.idcard ul {
+  padding-left: 25px
+}
+
+.idcard li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.idcard li i {
+  margin-right: 20px;
+}

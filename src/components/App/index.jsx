@@ -1,12 +1,22 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
+import styles from './app.css';
+import resume from '../../resume.json';
+import IdentityCard from '../IdentityCard';
+import Skills from '../Skills';
+import Work from '../Work';
+import School from '../School';
+import Interest from '../Interest';
 
 export default () =>
   <Row>
-    <Col xs={6} md={4}>
-      <h1>React App renderer</h1>
+    <Col xs={12} md={3} className={styles.left}>
+      <IdentityCard basics={resume.basics} languages={resume.languages} />
     </Col>
-    <Col xs={6} md={8}>
-      <p style={{ color: 'green' }}> change text or style color in dev mode to see hot reloading in action</p>
+    <Col xs={12} md={9} className={styles.main}>
+      <Skills skillz={resume.skills} />
+      <Work workz={resume.work} />
+      <School schoolz={resume.education} />
+      <Interest volunteers={resume.volunteer} interests={resume.interests} />
     </Col>
   </Row>;

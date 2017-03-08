@@ -21,7 +21,9 @@ if (module.hot) {
   module.hot.accept('./components/App', () => {
     render(
       <AppContainer>
-        <App />
+        <Grid>
+          <App />
+        </Grid>
       </AppContainer>,
       document.getElementById('root'),
     );

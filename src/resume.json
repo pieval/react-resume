@@ -1,13 +1,12 @@
 {
   "basics": {
    "name": "Pierre Vallet",
-   "label": "Developpeur / Tech Back and Frontend",
+   "label": "Developpeur Frontend & Backend",
    "picture": "",
    "email": "vallet.pierre@gmail.com",
-   "phone": "+33667471212",
+   "phone": "+336 67 47 12 12",
    "website": "",
-   "summary": "Après avoir débuté durant six années au sein de SSII et pour de grand comptes clients, j'ai plongé dans l'univers des startups en 2013.
-   Remise en question, apprentissage de nouvelles technologies, techniques et langages sont donc devenu légion. Il m'a fallu apprendre à devenir curieux et aborder l'ensemble des sujets connexes au développement en fonction des problématiques rencontrées. Cela à développé mon sens de la recherche et de l'autonomie",
+   "summary": "Après avoir débuté durant six années au sein de SSII et pour de grand comptes clients, j'ai plongé dans l'univers des startups en 2013. Remise en question, apprentissage de nouvelles technologies, techniques et langages sont donc devenu légion. Il m'a fallu apprendre à devenir curieux et aborder l'ensemble des sujets connexes au développement en fonction des problématiques rencontrées. Cela à développé mon sens de la recherche et de l'autonomie",
    "location": {
      "address": "22 boulevard Pasteur",
      "postalCode": "63000",
@@ -21,21 +20,21 @@
    "company": "Search XPR - Oorace",
    "position": "CDI - Développeur Frontend et Backend, DevOps",
    "website": "http://www.oorace.com/",
-   "startDate": "03/04/2013",
-   "endDate": "",
+   "startDate": "2013-04-03",
+   "endDate": "2017-02-14",
    "summary": "Développement d'une solution de recommendation de contenus/produits pour site web Oorace.",
    "highlights": [
      "Développement d'une application web backend et frontend pour le paramétrage technique et client de la plateforme de recommenation",
      "Architecture et développement d'une librairie Javascript pour la collecte des données de navigation utilisateur sur une plateforme web cible, et d'un module de récupération et d'affichage instantannée des produits/contenus recommandés par la plateforme Oorace.",
-     "Mise en place d'un environnement de collecte et de monitoring des métriques de l'ensemble des briques matérielles et logicielles de l'infrastructure de production. Intégration et clusterisation des outils de monitoring et visualisation, développement de connecteurs de récupération des métriques de la palteforme, réalisation de dashboard de visualisation des métriques et mise en palce d'un outils d'alertes automatisées.",
+     "Mise en place d'un environnement de collecte et de monitoring des métriques de l'ensemble des briques matérielles et logicielles de l'infrastructure de production. Intégration et clusterisation des outils de monitoring et visualisation, développement de connecteurs de récupération des métriques de la palteforme, réalisation de dashboard de visualisation des métriques et mise en palce d'un outils d'alertes automatisées."
    ]
  },
  {
    "company": "Atos",
    "position": "CDI - Concepteur/Developpeur Java Web",
    "website": "https://fr.atos.net",
-   "startDate": "01/04/2008",
-   "endDate": "03/04/2013",
+   "startDate": "2008-04-01",
+   "endDate": "2013-04-03",
    "summary": "Concepteur et développeur d'application Java web en prestation pour différents grand compte.",
    "highlights": [
      "Analyse technique et développement d’applications Java EE dans la branche manufacturing d’une manufacture de pneumatiques française.",
@@ -47,8 +46,8 @@
    "company": "Capgemini",
    "position": "CDI - Developpeur Java junior",
    "website": "https://www.fr.capgemini.com/",
-   "startDate": "01/07/2007",
-   "endDate": "01/04/2008",
+   "startDate": "2007-07-01",
+   "endDate": "2008-04-01",
    "summary": "",
    "highlights": [
      "Études de cahiers des charges, analyses fonctionnelles et techniques et chiffrages d'évolutions",
@@ -58,20 +57,23 @@
 ],
  "volunteer": [{
    "organization": "La Roche Blanche Montagne Escalade",
-   "position": "Président",
+   "position": "Président d'association sportive",
    "website": "",
-   "startDate": "01/04/2016",
+   "startDate": "2016-04-01",
    "endDate": "",
-   "summary": "Président d'un club d'escalade affilié FFME",
+   "summary": "Président d'un club d'escalade affilié à la Fédération Francaise de la Montagne et de l'Escalade (FFME).",
    "highlights": [
+     "Coordination des différents pôle du club",
+     "Animation des réunions de conseil d'administration",
+     "Représentation de notre club auprès de la commune et des instances de la fédération"
    ]
  }],
  "education": [{
    "institution": "Institut Universitaire de Technologie de Clermont Ferrand (63)",
    "area": "Informatique répartie",
-   "studyType": "Licence professionnele",
-   "startDate": "01/09/2005",
-   "endDate": "30/06/2006",
+   "studyType": "Licence professionnelle",
+   "startDate": "2005-09-01",
+   "endDate": "2006-08-30",
    "gpa": "",
    "courses": [
    ]
@@ -79,9 +81,9 @@
  {
    "institution": "Institut Universitaire de Technologie de Clermont Ferrand (63)",
    "area": "Systèmes industriels",
-   "studyType": "Diplôme Universitaire de Technologie en informatique",
-   "startDate": "01/09/2003",
-   "endDate": "30/06/2005",
+   "studyType": "DUT Informatique",
+   "startDate": "2003-09-01",
+   "endDate": "2005-06-30",
    "gpa": "",
    "courses": [
    ]
@@ -108,14 +110,14 @@
    ]
  },
   {
-    "name": "DevOps",
+    "name": "Gestion de versions et devops",
     "level": "Intermediate",
     "keywords": [
       "Git / Github / Gitlab",
       "Jenkins",
       "Docker",
       "Ansible",
-      "Graphite & Grafana"
+      "Graphite & Grafana",
       "Seyren",
       "Amazon AWS"
     ]
@@ -133,18 +135,14 @@
 ],
  "languages": [{
    "name": "Anglais",
-   "level": "Lu, écrit et parlé"
- },
- {
-   "name": "Espagnol",
-   "level": "Notions"
+   "level": "technique"
  }],
  "interests": [{
-   "name": "Sport et activitées de montagne",
+   "name": "Sports et activitées de montagne",
    "keywords": [
-     "Escalade",
+     "Escalade : Pratique régulière en semaine, week-ends et lors de vacances dédiées dans différentes régions.",
+      "VTT : Participation annuelle à plusieurs épreuves d'enduro régionales et nationales comme amateur",
      "Randonnée",
-     "VTT enduro",
      "Ski & snowboard"
    ]
  }],

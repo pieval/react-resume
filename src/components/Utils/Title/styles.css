@@ -1,0 +1,12 @@
+.section {
+
+}
+.section h2 {
+  color: #EC7000;
+  margin-bottom: 5px;
+}
+
+.section hr {
+  width: 100%;
+  margin-top: 0;
+}

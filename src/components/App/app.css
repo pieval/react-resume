@@ -1,0 +1,40 @@
+/**global html, body style define att app level*/
+
+:global body {
+  font-family: Roboto, sans-serif;
+  background-color: #E4E6E8;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-smoothing: antialiased;
+  margin: 0;
+}
+
+:global h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+:global h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+:global h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+:global h4 {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.left {
+   margin-top: 15px;
+}
+
+.main {
+  margin: 15px 0px;
+  background-color: #FFFFFF;
+  padding: 0 15px;
+}

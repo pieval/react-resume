@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.css', '.json'],
   },
 
   entry: [
@@ -43,6 +43,15 @@ module.exports = {
           'postcss-loader',
         ],
       },
+      {
+        test: /\.png$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'media/[name].[ext]',
+          },
+        },
+      },
     ],
   },
 
@@ -50,7 +59,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({
-      template: 'public/index.template.ejs',
+      template: 'src/index.template.ejs',
       inject: 'body',
     }),
     new webpack.DefinePlugin({
