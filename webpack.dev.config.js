@@ -36,7 +36,15 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
+        test: /\.global\.css$/,
+        use: [
+          'style-loader',
+          'css-loader?sourceMap',
+          'postcss-loader',
+        ],
+      },
+      {
+        test: /^((?!\.global).)*\.css$/,
         use: [
           'style-loader',
           'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',

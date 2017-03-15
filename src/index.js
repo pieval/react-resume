@@ -7,7 +7,6 @@ import { AppContainer } from 'react-hot-loader';
 import { Grid } from 'react-flexbox-grid';
 import App from './components/App';
 
-
 render(
   <AppContainer>
     <Grid>

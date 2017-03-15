@@ -1,0 +1,38 @@
+ body {
+  font-family: Roboto, sans-serif;
+  background-color: #E4E6E8;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-smoothing: antialiased;
+  margin: 0;
+}
+hr {
+  border: none;
+  height: 1px;
+  color:  #B0B0B0;
+  background-color:  #B0B0B0;
+}
+
+.visiblexs,
+.visiblesm,
+.visiblemd,
+.visiblelg {
+  display: none !important;
+}
+
+@media (max-width: 47.999em) {
+    .visiblexs { display: block !important; }
+    .hiddenxs { display: none !important; }
+}
+@media (min-width: 48em) and (max-width: 63.999em) {
+    .visiblesm      { display: block !important; }
+     .hiddensm { display: none !important; }
+}
+@media (min-width: 64em) and (max-width: 74.999em) {
+    .visiblemd      { display: block !important; }
+    .hiddenmd { display: none !important; }
+}
+@media (min-width: 75em) {
+    .visiblelg      { display: block !important; }
+    .hiddenlg { display: none !important; }
+}

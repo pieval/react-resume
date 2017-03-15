@@ -1,10 +1,10 @@
 {
   "basics": {
    "name": "Pierre Vallet",
-   "label": "Developpeur Frontend & Backend",
+   "label": "Développeur Frontend & Backend",
    "picture": "",
    "email": "vallet.pierre@gmail.com",
-   "phone": "+336 67 47 12 12",
+   "phone": "+33 6 67 47 12 12",
    "website": "",
    "summary": "Après avoir débuté durant six années au sein de SSII et pour de grand comptes clients, j'ai plongé dans l'univers des startups en 2013. Remise en question, apprentissage de nouvelles technologies, techniques et langages sont donc devenu légion. Il m'a fallu apprendre à devenir curieux et aborder l'ensemble des sujets connexes au développement en fonction des problématiques rencontrées. Cela à développé mon sens de la recherche et de l'autonomie",
    "location": {
@@ -18,28 +18,29 @@
  },
  "work": [{
    "company": "Search XPR - Oorace",
-   "position": "CDI - Développeur Frontend et Backend, DevOps",
+   "position": "CDI - Développeur frontend et backend",
    "website": "http://www.oorace.com/",
    "startDate": "2013-04-03",
    "endDate": "2017-02-14",
-   "summary": "Développement d'une solution de recommendation de contenus/produits pour site web Oorace.",
+   "summary": "Développement d'une solution de recommandations de contenus/produits pour site web : Oorace.",
    "highlights": [
-     "Développement d'une application web backend et frontend pour le paramétrage technique et client de la plateforme de recommenation",
-     "Architecture et développement d'une librairie Javascript pour la collecte des données de navigation utilisateur sur une plateforme web cible, et d'un module de récupération et d'affichage instantannée des produits/contenus recommandés par la plateforme Oorace.",
-     "Mise en place d'un environnement de collecte et de monitoring des métriques de l'ensemble des briques matérielles et logicielles de l'infrastructure de production. Intégration et clusterisation des outils de monitoring et visualisation, développement de connecteurs de récupération des métriques de la palteforme, réalisation de dashboard de visualisation des métriques et mise en palce d'un outils d'alertes automatisées."
+     "Développement d'une application web backend Dropwizard et frontend ReactJS / Redux dédiée au paramétrage technique et client de la plateforme de recommandation. ",
+     "Architecture et développement d'une librairie Javascript destinée à la collecte des données de navigation utilisateur sur une plateforme web cible ainsi qu’à la récupération et à l’affichage des produits recommandés.",
+     "Mise en place d'un environnement Graphite pour la collecte et de monitoring des métriques de l'ensemble des briques matérielles et logicielles de l'infrastructure de production. Intégration et clusterisation des outils de monitoring et de visualisation des données",
+     "Développement de scripts Groovy / Python de récupération des métriques de composants de la plateforme. Réalisation de dashboards Grafana de visualisation des métriques et mise en place de l’outil d'alertes automatisées Seyren"
    ]
  },
  {
    "company": "Atos",
-   "position": "CDI - Concepteur/Developpeur Java Web",
+   "position": "CDI - Concepteur / Développeur Agile Java",
    "website": "https://fr.atos.net",
    "startDate": "2008-04-01",
    "endDate": "2013-04-03",
-   "summary": "Concepteur et développeur d'application Java web en prestation pour différents grand compte.",
+   "summary": "Conception et développement d'applications Java EE pour différents clients grand compte",
    "highlights": [
-     "Analyse technique et développement d’applications Java EE dans la branche manufacturing d’une manufacture de pneumatiques française.",
-     "Développement d’évolutions sur une application de traitement de données issues d’un satellite.",
-     "Architecture et développement d'un module autonome, traçant les événements et les alarmes déclenchés sur un réseau gazier étranger."
+     "Analyse technique et développement d’applications Java EE au sein de la branche manufacturing de l’entreprise Michelin, gestion de projet agile avec Scrum.",
+     "Développement d’évolutions sur une application Java de traitement de données issues d’un satellite.",
+     "Architecture et développement en Java EE d'un module autonome de traçage des événements et des alarmes déclenchés sur une infrastructure gazière."
    ]
  },
  {
@@ -48,10 +49,10 @@
    "website": "https://www.fr.capgemini.com/",
    "startDate": "2007-07-01",
    "endDate": "2008-04-01",
-   "summary": "",
+   "summary": "Développement d’évolutions sur une application Java.",
    "highlights": [
-     "Études de cahiers des charges, analyses fonctionnelles et techniques et chiffrages d'évolutions",
-     "Développement de nouvelles fonctionnalitées, corrections d’anomalies sur une application web en Java dédiée à la visualisation des commandes clients dans un service de supply chain d'un manufacturier de pneumatiques."
+     "Analyse, chiffrages et développement de nouvelles fonctionnalités.",
+     "Corrections d’anomalies sur une application web en Java de visualisation des commandes clients dans un service de supply-chain d'un manufacturier de pneumatiques."
    ]
  }
 ],
@@ -92,9 +93,11 @@
    "name": "Développement frontend",
    "level": "Master",
    "keywords": [
-     "HTML/CSS",
+     "HTML",
+     "CSS",
      "Javascript ES 5/6",
-     "ReactJS / Redux / Webpack",
+     "ReactJS / Redux",
+     "Webpack",
      "Github Atom"
    ]
  },
@@ -104,20 +107,22 @@
    "keywords": [
      "Java 8",
      "Java EE",
-     "Dropwizard",
+     "Dropwizard REST Framework",
      "Junit",
-     "IDEA IntelliJ"
+     "IDEA IntelliJ",
+     "Eclipse"
    ]
  },
   {
     "name": "Gestion de versions et devops",
     "level": "Intermediate",
     "keywords": [
-      "Git / Github / Gitlab",
-      "Jenkins",
+      "Git",
+      "Github / Gitlab",
       "Docker",
+      "Jenkins",
       "Ansible",
-      "Graphite & Grafana",
+      "Graphite / Grafana",
       "Seyren",
       "Amazon AWS"
     ]
@@ -131,6 +136,16 @@
       "Elaticsearch",
       "Zookeeper"
     ]
+  },
+  {
+    "name": "Méthodologies et concepts",
+    "level": "Intermediate",
+    "keywords": [
+      "Agilité",
+      "Scrum",
+      "API REST",
+      "UML"
+    ]
   }
 ],
  "languages": [{
@@ -141,7 +156,7 @@
    "name": "Sports et activitées de montagne",
    "keywords": [
      "Escalade : Pratique régulière en semaine, week-ends et lors de vacances dédiées dans différentes régions.",
-      "VTT : Participation annuelle à plusieurs épreuves d'enduro régionales et nationales comme amateur",
+     "VTT : Participations annuelles à plusieurs épreuves d'enduro régionales et nationales comme amateur",
      "Randonnée",
      "Ski & snowboard"
    ]
