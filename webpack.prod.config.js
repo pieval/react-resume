@@ -2,6 +2,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -85,6 +86,21 @@ module.exports = {
 
   plugins: [
     new ExtractTextPlugin('static/bundle.css'),
+    new FaviconsWebpackPlugin({
+      logo: './public/favicon-cv.png',
+      icons: {
+        android: false,
+        appleIcon: false,
+        appleStartup: false,
+        coast: false,
+        favicons: true,
+        firefox: false,
+        opengraph: false,
+        twitter: false,
+        yandex: false,
+        windows: false,
+      },
+    }),
     new HtmlWebpackPlugin({
       template: 'src/index.template.ejs',
       inject: 'body',
